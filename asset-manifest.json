@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/car/static/css/main.d56ae7ae.chunk.css",
-    "main.js": "/car/static/js/main.36bfd56b.chunk.js",
-    "main.js.map": "/car/static/js/main.36bfd56b.chunk.js.map",
+    "main.css": "/car/static/css/main.cd3d7a19.chunk.css",
+    "main.js": "/car/static/js/main.24b16748.chunk.js",
+    "main.js.map": "/car/static/js/main.24b16748.chunk.js.map",
     "runtime-main.js": "/car/static/js/runtime-main.ae188e3c.js",
     "runtime-main.js.map": "/car/static/js/runtime-main.ae188e3c.js.map",
     "static/js/2.4b30b435.chunk.js": "/car/static/js/2.4b30b435.chunk.js",
     "static/js/2.4b30b435.chunk.js.map": "/car/static/js/2.4b30b435.chunk.js.map",
     "index.html": "/car/index.html",
-    "static/css/main.d56ae7ae.chunk.css.map": "/car/static/css/main.d56ae7ae.chunk.css.map",
+    "static/css/main.cd3d7a19.chunk.css.map": "/car/static/css/main.cd3d7a19.chunk.css.map",
     "static/js/2.4b30b435.chunk.js.LICENSE.txt": "/car/static/js/2.4b30b435.chunk.js.LICENSE.txt",
     "static/media/left.cc5c1b1d.svg": "/car/static/media/left.cc5c1b1d.svg",
     "static/media/menu_btn.cec3097c.svg": "/car/static/media/menu_btn.cec3097c.svg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.ae188e3c.js",
     "static/js/2.4b30b435.chunk.js",
-    "static/css/main.d56ae7ae.chunk.css",
-    "static/js/main.36bfd56b.chunk.js"
+    "static/css/main.cd3d7a19.chunk.css",
+    "static/js/main.24b16748.chunk.js"
   ]
 }
