@@ -5,6 +5,7 @@
  left: 920px;
  top: 0px;
  overflow: hidden;
+
  
 }
 @media screen and (max-width: 700px){
@@ -29,50 +30,56 @@
 }
 
 .btn-slide {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: #f1f1f1;
+  width: 64px;
+  height: 1000px;
+ /* left: 615px;*/
+  background: #0EC261;
+  opacity: 0.2;
   border: 1px solid rgba(34, 34, 34, 0.287);
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  
 }
 
 .btn-slide img {
   width: 25px;
   height: 25px;
   pointer-events: none;
+  
 }
 .prev {
   top: 50%;
-  left: 20px;
-  transform: translateY(-60%);
+  left: 0px;
+  transform: translateY(-50%);
 }
 .next {
   top: 50%;
-  right: 20px;
-  transform: translateY(-60%);
+  right: 0px;
+  transform: translateY(-50%);
 }
+
 
 
 .container-dots {
   position: absolute;
-  bottom: 10px;
+  bottom: 25px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
 }
 .dot {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   border: 3px solid #f1f1f1;
   margin: 0 5px;
   background: #f1f1f1;
 }
 .dot.active {
-  background: #0EC261;
+  background:  #0EC261;
+  border: 3px solid #0EC261;
 }
+

@@ -10,7 +10,8 @@ function App() {
   const items = [{value:"парковка", href:"/parkovka"},
   {value:"страховка", href:"/strahovka"},
   {value:"бензин", href:"/benzin"},
-  {value:"обслуживание", href:"/obcluzivanie"}]
+  {value:"обслуживание", href:"/obcluzivanie"}
+]
 
   return (
    
@@ -20,6 +21,7 @@ function App() {
         <div className="nav">
         <div className="burger-btn" onClick={() => setMenuActive(!menuActive)}>
         <img src={burgerMenu} alt="no download"></img>
+        
         </div>
        </div>
       </nav>

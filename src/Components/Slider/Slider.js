@@ -3,6 +3,7 @@ import './Slider.css'
 import BtnSlider from './BtnSlider'
 import dataSlider from './dataSlider'
 
+
 export default function Slider() {
 
     const [slideIndex, setSlideIndex] = useState(1)
@@ -29,6 +30,8 @@ export default function Slider() {
         setSlideIndex(index)
     }
 
+   
+   
     return (
         <div className="container-slider">
             {dataSlider.map((obj, index) => {
@@ -37,12 +40,19 @@ export default function Slider() {
                     key={obj.id}
                     className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                     >
-                        <img 
+                        < img 
                         src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`} 
                         />
+                     
                     </div>
                 )
             })}
+                    
+                   
+               
+           
+      
+
             <BtnSlider moveSlide={nextSlide} direction={"next"} />
             <BtnSlider moveSlide={prevSlide} direction={"prev"}/>
 
@@ -57,3 +67,5 @@ export default function Slider() {
         </div>
     )
 }
+
+
