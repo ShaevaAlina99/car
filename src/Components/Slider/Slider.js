@@ -5,7 +5,7 @@ import dataSlider from './dataSlider'
 
 
 export default function Slider() {
-
+   
     const [slideIndex, setSlideIndex] = useState(1)
 
     const nextSlide = () => {
@@ -40,10 +40,12 @@ export default function Slider() {
                     key={obj.id}
                     className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                     >
-                        < img 
+                       < img 
                         src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`} 
                         />
-                     
+                     <div className="text">Бесплатная парковка</div>
+                    
+                     <button className="b"> Подробнее</button>
                     </div>
                 )
             })}

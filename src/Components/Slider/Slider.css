@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .container-slider {
- position:absolute;
+ position:relative;
  width: 688px;
  height: 760px;
  left: 920px;
@@ -32,9 +34,9 @@
 .btn-slide {
   width: 64px;
   height: 1000px;
- /* left: 615px;*/
-  background: #0EC261;
-  opacity: 0.2;
+  left: 615px;
+ /* background: #0EC261;*/
+  opacity: 0.01;
   border: 1px solid rgba(34, 34, 34, 0.287);
   position: absolute;
   display: flex;
@@ -43,7 +45,10 @@
   cursor: pointer;
   
 }
-
+.btn-slide:hover{
+  background: #0EC261;
+  opacity: 0.3;
+}
 .btn-slide img {
   width: 25px;
   height: 25px;
@@ -83,3 +88,51 @@
   border: 3px solid #0EC261;
 }
 
+.text{
+  position: absolute;
+width: 421px;
+height: 47px;
+left: 96px;
+top: 237px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+
+color: #FFFFFF;
+}
+
+.text1{
+  position: absolute;
+  width: 495px;
+  height: 72px;
+  left: 96px;
+  top: 292px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  
+  color: #EEEEEE;
+}
+.b{
+  position: absolute;
+left: 96px;
+right: 0%;
+width: 164px;
+height: 48px;
+top: 400px;
+bottom: 22.97%;
+color: #EEEEEE;
+background: linear-gradient(90deg, #13493F 0%, #0C7B1B 100%);
+border-radius: 4px;
+font-family: Roboto;
+font-style: normal;
+border: aliceblue;
+font-weight: 500;
+font-size: 18px;
+}
