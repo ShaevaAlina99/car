@@ -88,27 +88,27 @@
   border: 3px solid #0EC261;
 }
 
-.text{
+.text-cont{
   position: absolute;
-width: 421px;
-height: 47px;
-left: 96px;
-top: 237px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 47px;
-
-color: #FFFFFF;
-}
-
-.text1{
+  width: 421px;
+  height: 47px;
+  left: 62px;
+  top: 237px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  
+  color: #FFFFFF;
+  }
+  
+  .text1{
   position: absolute;
   width: 495px;
   height: 72px;
-  left: 96px;
+  left: 62px;
   top: 292px;
   
   font-family: Roboto;
@@ -118,10 +118,10 @@ color: #FFFFFF;
   line-height: 100%;
   
   color: #EEEEEE;
-}
+  }
 .b{
   position: absolute;
-left: 96px;
+left: 62px;
 right: 0%;
 width: 164px;
 height: 48px;

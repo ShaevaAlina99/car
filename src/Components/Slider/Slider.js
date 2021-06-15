@@ -8,6 +8,19 @@ export default function Slider() {
    
     const [slideIndex, setSlideIndex] = useState(1)
 
+var SliderText = [
+"Бесплатная парковка",
+"Страховка",
+"Бензин",
+"Обслуживание"
+]
+
+var SliderText1 = [
+"Оставляйте машину на платных городских парковках и разрешенных местах, не нарушая ПДД, а также в аэропортах.",
+"Полная страховка страховка автомобиля",
+"Полный бак на любой заправке города за наш счёт",
+"Автомобиль проходит еженедельное ТО"
+]
     const nextSlide = () => {
         if(slideIndex !== dataSlider.length){
             setSlideIndex(slideIndex + 1)
@@ -43,8 +56,7 @@ export default function Slider() {
                        < img 
                         src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`} 
                         />
-                     <div className="text">Бесплатная парковка</div>
-                    <div className="text1">Оставляйте машину на платных городских парковках и разрешенных местах, не нарушая ПДД, а также в аэропортах. </div>
+                    
                      <button className="b"> Подробнее</button>
                     </div>
                 )
@@ -66,6 +78,18 @@ export default function Slider() {
                     ></div>
                 ))}
             </div>
+
+            <div className="text-cont">
+{
+SliderText[slideIndex-1].toString()
+}
+</div>
+
+<div className="text1">
+{
+SliderText1[slideIndex-1].toString()
+}
+</div>
         </div>
     )
 }
