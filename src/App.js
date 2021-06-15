@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Slider from './Components/Slider/Slider'
 import burgerMenu from'./menu_btn.svg';
 import Menu from './burgerMenu/Menu';
-import pointer from './Group.svg';
+import group from './Group.svg';
 
 function App() {
   const [menuActive, setMenuActive] = useState(false)
@@ -31,11 +31,9 @@ function App() {
       <main>
       <h1 className="wrapper">Need for drive</h1>  
       <div className="ukaz">
-      <img src={pointer}/>
-      </div>
+      <img src={group}/>
       <h2 className="p">Ульяновск</h2>
-     
-     
+      </div>
       <h3 className="wrapper1">Каршеринг</h3>
       <h4 className="wrapper2">Need for drive</h4>
       <h5 className="wrapper3">Поминутная аренда авто твоего города</h5>

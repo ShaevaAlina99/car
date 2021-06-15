@@ -44,7 +44,7 @@ export default function Slider() {
                         src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`} 
                         />
                      <div className="text">Бесплатная парковка</div>
-                    
+                    <div className="text1">Оставляйте машину на платных городских парковках и разрешенных местах, не нарушая ПДД, а также в аэропортах. </div>
                      <button className="b"> Подробнее</button>
                     </div>
                 )
